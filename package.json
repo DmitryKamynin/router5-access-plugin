@@ -1,0 +1,16 @@
+{
+  "name": "router-access-plugin",
+  "version": "1.0.0",
+  "description": "Plugin to simplify access control to private pages",
+  "main": "router5 access-control private-pages typescript",
+  "repository": "https://github.com/DmitryKamynin/router5-plugin-access-control",
+  "author": "Dmitry Kamynin <dak97dak@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "router5": "^8.0.1"
+  }
+}
