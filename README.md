@@ -55,7 +55,7 @@ const getAccess = async () => {
     state.isHaveAccess = response.ok ? true : false;
 
    /// second method
-   routeInstance.checkAccess(token);
+   routeInstance.checkAccess(state.isHaveAccess);
 };
 ```
 #### if **state.isHaveAccess === true**, then access to private pages will be open, otherwise closed.
